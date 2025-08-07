@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <!-- 
   // design and development
- // kekma.kz © 2025
+ // taw.vision © 2023
 -->
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
         <link rel="icon" href="./favicon.png"/>
         <meta name="viewport" content="width=device-width"/>
-        <link href="assets/css/releases.css" rel="stylesheet">
+        <link href="/assets/css/style.css" rel="stylesheet">
         <title>Releases | dB</title>
         <!-- HEAD_svelte-1s940w4_START -->
         <meta name="title" content="Releases | dB">
         <meta property="og:title" content="Releases | dB">
         <meta name="twitter:title" content="Releases | dB">
-        <meta name="description" content="Discover the latest releases by dB.">
-        <meta property="og:description" content="Discover the latest releases by dB.">
-        <meta name="twitter:description" content="Discover the latest releases by dB.">
+        <meta name="description" content="Discover the latest releases by dB, NYC's independent hip-hop label. Shop exclusive merch &amp; physical releases. Relax and Enjoy the Music.">
+        <meta property="og:description" content="Discover the latest releases by dB, NYC's independent hip-hop label. Shop exclusive merch &amp; physical releases. Relax and Enjoy the Music.">
+        <meta name="twitter:description" content="Discover the latest releases by dB, NYC's independent hip-hop label. Shop exclusive merch &amp; physical releases. Relax and Enjoy the Music.">
         <meta property="og:image" content="https://surfgang.nyc//social.png">
         <meta name="twitter:image" content="https://surfgang.nyc//social.png">
-        <meta name="twitter:image:alt" content="Discover the latest releases by dB.">
+        <meta name="twitter:image:alt" content="Discover the latest releases by dB, NYC's independent hip-hop label. Shop exclusive merch &amp; physical releases. Relax and Enjoy the Music.">
         <meta property="og:type" content="website">
         <meta name="twitter:card" content="summary_large_image">
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -80,7 +80,7 @@
                             <div class="grid gap-[15px]">
                                 <div class="aspect-h-1 aspect-w-1">
                                     <div class="pulse-bg w-full h-full object-cover">
-                                        <img src="cover.jpg">
+                                        <img src="https://cdn.sanity.io/images/4o5apavh/production/6ce4093f224a1602b1bb9c9f3901bad34f890a8d-1200x1200.jpg?fit=max&amp;auto=format&amp;auto=format" alt="SGB by SURF GANG album art" class="duration-600  w-full opacity-0 !shadow-none transition-opacity ease-in  w-full h-full object-cover" newsrcset="https://cdn.sanity.io/images/4o5apavh/production/6ce4093f224a1602b1bb9c9f3901bad34f890a8d-1200x1200.jpg?fit=max&amp;auto=format&amp;w=400 400w,https://cdn.sanity.io/images/4o5apavh/production/6ce4093f224a1602b1bb9c9f3901bad34f890a8d-1200x1200.jpg?fit=max&amp;auto=format&amp;w=600 600w,https://cdn.sanity.io/images/4o5apavh/production/6ce4093f224a1602b1bb9c9f3901bad34f890a8d-1200x1200.jpg?fit=max&amp;auto=format&amp;w=800 800w,https://cdn.sanity.io/images/4o5apavh/production/6ce4093f224a1602b1bb9c9f3901bad34f890a8d-1200x1200.jpg?fit=max&amp;auto=format&amp;w=1200 1200w,https://cdn.sanity.io/images/4o5apavh/production/6ce4093f224a1602b1bb9c9f3901bad34f890a8d-1200x1200.jpg?fit=max&amp;auto=format&amp;w=1600 1600w">
                                     </div>
                                 </div>
                                 <div class="flex justify-between">
@@ -96,5 +96,61 @@
                 </div>
             </div>
         </div>
+        <script>
+            {
+                __sveltekit_1lgcaeq = {
+                    base: new URL(".",location).pathname.slice(0, -1),
+                    env: {}
+                };
+
+                const element = document.currentScript.parentElement;
+
+                const data = [{
+                    "type": "data",
+                    "data": {
+                        previewModeEmbed: false,
+                        previewMode: false
+                    },
+                    "uses": {}
+                }, null, {
+                    "type": "data",
+                    "data": {
+                        previewMode: false,
+                        initialData: {
+                            releases: [{
+                                albumArt: {
+                                    _type: "image",
+                                    asset: {
+                                        _ref: "image-6ce4093f224a1602b1bb9c9f3901bad34f890a8d-1200x1200-jpg",
+                                        _type: "reference"
+                                    }
+                                },
+                                artist: "SURF GANG",
+                                releaseDate: "2021-01-14",
+                                releaseNumber: 1,
+                                slug: {
+                                    _type: "slug",
+                                    current: "SGB"
+                                },
+                                title: "SGB"
+                            }]
+                        }
+                    },
+                    "uses": {
+                        "parent": 1
+                    }
+                }];
+
+                Promise.all([import("./_app/immutable/entry/start.8b5effce.js"), import("./_app/immutable/entry/app.903636ac.js")]).then( ([kit,app]) => {
+                    kit.start(app, element, {
+                        node_ids: [0, 2, 9],
+                        data,
+                        form: null,
+                        error: null
+                    });
+                }
+                );
+            }
+        </script>
     </div>
 </html>
