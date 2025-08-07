@@ -926,3 +926,43 @@ a:hover {
         padding-right: 2rem
     }
 }
+
+html, body {
+  background: #0b0b0b;
+  color: #e5e7eb;
+}
+
+*, :before, :after {
+  border-color: #374151;
+  --tw-ring-offset-color: #0b0b0b;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder,
+input::placeholder,
+textarea::placeholder {
+  color: #6b7280;
+}
+
+.small {
+  color: #9ca3af;
+}
+
+.bg-white,
+.\!bg-white {
+  background-color: #111827 !important;
+}
+
+hr {
+  border-top-color: #374151;
+}
+
+.pulse-bg {
+  animation: pulse-dark 2s infinite;
+}
+
+@keyframes pulse-dark {
+  0% { background-color: #111827 }
+  50% { background-color: #1f2937 }
+  100% { background-color: #111827 }
+}
